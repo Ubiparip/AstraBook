@@ -1,1 +1,16 @@
-
+{
+  "Admin" : {
+    "id" : "c38bd929-747e-487c-bce4-5e7ef3f90084",
+    "userName" : "admin",
+    "password" : "admin",
+    "firstName" : "Dejan",
+    "lastName" : "Ubiparip",
+    "email" : "ubiparip@gmail.com",
+    "address" : "Novi Sad",
+    "gender" : "M",
+    "uloga" : 1,
+    "apartmaniZaIznajmljivanje" : [ ],
+    "zakazaneRezervacije" : [ ],
+    "iznajmljeniApartmani" : [ ]
+  }
+}
