@@ -12,5 +12,19 @@
     "apartmaniZaIznajmljivanje" : [ ],
     "zakazaneRezervacije" : [ ],
     "iznajmljeniApartmani" : [ ]
-  }
+  },
+  "Domacin" : {
+    "id" : "61e5fb32-81b6-4a86-85ad-6d7c4184f46b",
+    "userName" : "domacin",
+    "password" : "domacin",
+    "firstName" : "Marko",
+    "lastName" : "Nikolic",
+    "email" : "marko@gmail.com",
+    "address" : "Novi Sad",
+    "gender" : "M",
+    "uloga" : 2,
+    "apartmaniZaIznajmljivanje" : [ ],
+    "zakazaneRezervacije" : [ ],
+    "iznajmljeniApartmani" : [ ]
+  }  
 }
