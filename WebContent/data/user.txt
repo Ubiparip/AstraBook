@@ -26,5 +26,19 @@
     "apartmaniZaIznajmljivanje" : [ ],
     "zakazaneRezervacije" : [ ],
     "iznajmljeniApartmani" : [ ]
-  }  
+  },
+  "Gost" : {
+    "id" : "4cfb7410-1cfa-4d7d-9f36-cd11e6d24108",
+    "userName" : "gost",
+    "password" : "gost",
+    "firstName" : "Ivana",
+    "lastName" : "Tesic",
+    "email" : "ivana@gmail.com",
+    "address" : "Beograd",
+    "gender" : "F",
+    "uloga" : 0,
+    "apartmaniZaIznajmljivanje" : [ ],
+    "zakazaneRezervacije" : [ ],
+    "iznajmljeniApartmani" : [ ]
+  }
 }
