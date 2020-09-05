@@ -1,1 +1,17 @@
-
+{
+  "36d59ee6-ad41-4a93-ab02-a84d73e22f5a" : {
+    "id" : "36d59ee6-ad41-4a93-ab02-a84d73e22f5a",
+    "tipSobe" : 0,
+    "brojSoba" : 2,
+    "brojGostiju" : 2,
+    "lokacija" : {
+      "width" : 14,
+      "length" : 12,
+      "adresa" : {
+        "id" : "7ee7d0c0-e7c8-40d6-b176-325b53cb7b97",
+        "ulica" : "Strazilovska",
+        "broj" : 33,
+        "mesto" : "Novi Sad",
+        "postanskiBroj" : 21000
+      }
+ }
