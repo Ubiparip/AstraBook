@@ -8,5 +8,15 @@
     "poruka" : "",
     "gost" : "4cfb7410-1cfa-4d7d-9f36-cd11e6d24108",
     "status" : 4
+  },
+  "085aea81-2a4a-4f88-be86-b684822f70d3" : {
+    "id" : "085aea81-2a4a-4f88-be86-b684822f70d3",
+    "apartman" : "25928803-ace8-4d1b-9502-6299dc7eaf28",
+    "pocetakIznajmljivanja" : "2020-07-30",
+    "brojNocenja" : 5,
+    "ukupnaCena" : 200,
+    "poruka" : "",
+    "gost" : "4cfb7410-1cfa-4d7d-9f36-cd11e6d24108",
+    "status" : 0
   }
 }
