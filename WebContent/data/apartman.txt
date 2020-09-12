@@ -2,16 +2,156 @@
   "36d59ee6-ad41-4a93-ab02-a84d73e22f5a" : {
     "id" : "36d59ee6-ad41-4a93-ab02-a84d73e22f5a",
     "tipSobe" : 0,
-    "brojSoba" : 2,
-    "brojGostiju" : 2,
+    "brojSoba" : 4,
+    "brojGostiju" : 3,
     "lokacija" : {
-      "width" : 14,
-      "length" : 12,
+      "width" : 8,
+      "length" : 10,
       "adresa" : {
         "id" : "7ee7d0c0-e7c8-40d6-b176-325b53cb7b97",
-        "ulica" : "Strazilovska",
-        "broj" : 33,
-        "mesto" : "Novi Sad",
-        "postanskiBroj" : 21000
+        "ulica" : "Ringstrasse",
+        "broj" : 26,
+        "mesto" : "Vienna",
+        "postanskiBroj" :  1402
       }
- }
+    },
+    "datePocetakVazenja" : "2020-05-14",
+    "krajPocetakVazenja" : "2020-06-12",
+    "obrisan" : false,
+    "domacin" : {
+      "id" : "61e5fb32-81b6-4a86-85ad-6d7c4184f46b",
+      "userName" : "domacin",
+      "password" : "domacin",
+      "firstName" : "Marko",
+      "lastName" : "Nikolic",
+      "email" : "marko@gmail.com",
+      "address" : "Novi Sad",
+      "gender" : "M",
+      "uloga" : 2,
+      "apartmaniZaIznajmljivanje" : [ ],
+      "zakazaneRezervacije" : [ ],
+      "iznajmljeniApartmani" : [ ]
+    },
+    "komentari" : null,
+    "slika" : "./assets/img/apartman1.jpg",
+    "cenaPoNoci" : 100,
+    "vremeZaPrijavu" : "12:00",
+    "vremeZaOdjavu" : "09:00",
+    "status" : 0,
+    "sadrzajApartmana" : null,
+    "rezervacije" : [ {
+      "id" : "a4d877df-ae7b-4896-9467-be26a1b5d45c",
+      "apartman" : "36d59ee6-ad41-4a93-ab02-a84d73e22f5a",
+      "pocetakIznajmljivanja" : "2020-05-29",
+      "brojNocenja" : 2,
+      "ukupnaCena" : 200,
+      "poruka" : "",
+      "gost" : "4cfb7410-1cfa-4d7d-9f36-cd11e6d24108",
+      "status" : 4
+    } ]
+  },
+  
+  "35a44995-7ee3-416e-a3b5-860e2c199755" : {
+    "id" : "35a44995-7ee3-416e-a3b5-860e2c199755",
+    "tipSobe" : 0,
+    "brojSoba" : 5,
+    "brojGostiju" : 4,
+    "lokacija" : {
+      "width" : 11,
+      "length" : 8,
+      "adresa" : {
+        "id" : "42aeabf8-2450-4bae-87cf-ad81463fc03f",
+        "ulica" : "La Rambla",
+        "broj" : 8,
+        "mesto" : "Barcelona",
+        "postanskiBroj" : 8001
+      }
+    },
+    "datePocetakVazenja" : "2020-07-28",
+    "krajPocetakVazenja" : "2020-08-16",
+    "obrisan" : false,
+    "domacin" : {
+      "id" : "61e5fb32-81b6-4a86-85ad-6d7c4184f46b",
+      "userName" : "domacin",
+      "password" : "domacin",
+      "firstName" : "Marko",
+      "lastName" : "Nikolic",
+      "email" : "marko@gmail.com",
+      "address" : "Novi Sad",
+      "gender" : "M",
+      "uloga" : 2,
+      "apartmaniZaIznajmljivanje" : [ ],
+      "zakazaneRezervacije" : [ ],
+      "iznajmljeniApartmani" : [ ]
+    },
+    "komentari" : null,
+    "slika" : "./assets/img/apartman2.jpg",
+    "cenaPoNoci" : 150,
+    "vremeZaPrijavu" : "13:00",
+    "vremeZaOdjavu" : "11:00",
+    "status" : 0,
+    "sadrzajApartmana" : null,
+    "rezervacije" : null
+  },
+  
+  "25928803-ace8-4d1b-9502-6299dc7eaf28" : {
+    "id" : "25928803-ace8-4d1b-9502-6299dc7eaf28",
+    "tipSobe" : 1,
+    "brojSoba" : 4,
+    "brojGostiju" : 3,
+    "lokacija" : {
+      "width" : 22,
+      "length" : 20,
+      "adresa" : {
+        "id" : "a1c9456d-bab1-4cda-8d0e-1a5afc0aec88",
+        "ulica" : "Knez Mihaila",
+        "broj" : 22,
+        "mesto" : "Belgrade",
+        "postanskiBroj" : 11000
+      }
+    },
+    "datePocetakVazenja" : "2020-09-11",
+    "krajPocetakVazenja" : "2020-10-09",
+    "obrisan" : false,
+    "domacin" : {
+      "id" : "61e5fb32-81b6-4a86-85ad-6d7c4184f46b",
+      "userName" : "domacin",
+      "password" : "domacin",
+      "firstName" : "Marko",
+      "lastName" : "Nikolic",
+      "email" : "marko@gmail.com",
+      "address" : "Novi Sad",
+      "gender" : "M",
+      "uloga" : 2,
+      "apartmaniZaIznajmljivanje" : [ ],
+      "zakazaneRezervacije" : [ ],
+      "iznajmljeniApartmani" : [ ]
+    },
+    "komentari" : null,
+    "slika" : "./assets/img/apartman3.jpg",
+    "cenaPoNoci" : 90,
+    "vremeZaPrijavu" : "16:00",
+    "vremeZaOdjavu" : "10:00",
+    "status" : 0,
+    "sadrzajApartmana" : null,
+    "rezervacije" : [ {
+      "id" : "52d59d79-e06e-45eb-9c34-78a84510aed9",
+      "apartman" : "25928803-ace8-4d1b-9502-6299dc7eaf28",
+      "pocetakIznajmljivanja" : "2020-09-26",
+      "brojNocenja" : 3,
+      "ukupnaCena" : 270,
+      "poruka" : "",
+      "gost" : "4cfb7410-1cfa-4d7d-9f36-cd11e6d24108",
+      "status" : 0
+    }, {
+      "id" : "085aea81-2a4a-4f88-be86-b684822f70d3",
+      "apartman" : "25928803-ace8-4d1b-9502-6299dc7eaf28",
+      "pocetakIznajmljivanja" : "2020-10-03",
+      "brojNocenja" : 4,
+      "ukupnaCena" : 360,
+      "poruka" : "",
+      "gost" : "4cfb7410-1cfa-4d7d-9f36-cd11e6d24108",
+      "status" : 0
+    } ]
+  }
+}
