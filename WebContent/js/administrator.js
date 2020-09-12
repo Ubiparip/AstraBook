@@ -55,9 +55,7 @@ function prikaziKorisnike(){
 			type: 'GET',
 			contentType : 'application/json',
 			success : function(users){
-				//for(let user of users){
 					ispisiKorisnike(users);
-				//}
 			}
 		});
 	}
