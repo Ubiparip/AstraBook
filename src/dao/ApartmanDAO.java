@@ -47,7 +47,6 @@ public class ApartmanDAO {
 		File f = new File(this.path + "\\data\\apartman.txt");
 		FileWriter fileWriter = null;
 		try {
-			//f.createNewFile();
 			fileWriter = new FileWriter(f);
 
 			ObjectMapper objectMapper = new ObjectMapper();
