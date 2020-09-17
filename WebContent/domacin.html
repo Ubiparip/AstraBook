@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="./js/lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="./js/domacin.js" type="text/javascript"></script>	
+	<link rel="icon" type="image/x-icon" href="assets/img/ikonica.ico" />
+	<meta charset="UTF-8">
+	<link href="css/domacinPage.css" rel="stylesheet" />
+	
+	<!-- Bootstrap cdn -->
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">		
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>	 	   
+	<script type="text/javascript" src="js/lib/datepicker/js/bootstrap-datepicker.min.js"></script>
+	<link rel="stylesheet"href="js/lib/datepicker/css/bootstrap-datepicker.css" />
+
+		
+	
+	<title>Domacin</title>
+</head>
+<body>
+	<div id="sidebar">
+		<ul>
+			<li id="dodajApartman">Dodaj apartman</li>
+			<li id="pregledKorisnika">Pregled korisnika</li>
+			<li id="apartmani">Apartmani</li>
+			<li id="noveRezervacije">Rezervacije</li>
+			<li id="odjava">Logout</li>
+		</ul>
+	</div>
+	
+	<div id="korisniciDIV" style="width:600px; margin-left: 350px; margin-right: 120px;">
+		
+	</div>
+
+	<div id="originDiv" style="width:600px; margin-left: 350px; margin-right: 120px;">
+		<div id="domaciniDIV" style="width: 400px; height: 800px; float: left;">
+		
+		</div>
+		<div id="searchDiv" style="width: 200px; height: 800px; float: right;">
+			<div>
+				<p>Unesi mesto:</p>
+				<input id="inputMesto" type="text" placeholder="Belgrade" />
+			</div>
+			<div>
+				<p>Unesi cenu:</p>
+				<input id="inputCena" type="text" placeholder="E.g. 90 {$}" />
+			</div>
+			<div>
+				<p>Unesi datum dolaska:</p>
+				<input id="inputDolazak" type="text" class="datepicker" />
+				
+				<p>Unesi datum odlaska:</p>
+				<input id="inputOdlazak" type="text" class="datepicker"  />
+			</div>
+			<div>
+				<p>Unesi broj soba:</p>
+				<input id="inputBrojSoba" type="text" placeholder="E.g. 4" />
+			</div>
+			<div>
+				<p>Unesi broj gostiju:</p>
+				<input id="inputBrojGostiju" type="text" placeholder="E.g. 3" />
+			</div>
+			
+			<div>
+				<p>Sortiraj po ceni:</p>
+				<input type="radio" name="cena" id="rastuce">Rastuce<br>
+				<input type="radio" name="cena" id="opadajuce">Opadajuce<br>
+			</div>
+			
+			<div>
+				<p>Tip apartmana:</p>
+				<input type="radio" name="tip" id="ceo">Ceo<br>
+				<input type="radio" name="tip" id="soba">Soba<br>
+			</div>
+			
+			<div>
+				<p>Status apartmana:</p>
+				<input type="radio" name="status" id="aktivan">Aktivan<br>
+				<input type="radio" name="status" id="neaktivan">Neaktivan<br>
+			</div>
+			
+			<div id="sortirajRezervacije">
+				<p>Sortiraj Rezervacije po ceni:</p>
+				<input type="radio" name="cenaRezervacija" id="rastuceRezervacija">Rastuce<br>
+				<input type="radio" name="cenaRezervacija" id="opadajuceRezervacija">Opadajuce<br>
+			</div> 
+			
+			<div id="statusRezervacije">
+				<p>Status Rezervacije:</p>
+				<input type="radio" name="statusRezervacije" id="kreiraneRezervacije">Kreirane<br>
+				<input type="radio" name="statusRezervacije" id="odbijeneRezervacije">Odbijene<br>
+				<input type="radio" name="statusRezervacije" id="odustaleRezervacije">Odustale<br>
+				<input type="radio" name="statusRezervacije" id="prihvaceneRezervacije">Prihvacene<br>
+				<input type="radio" name="statusRezervacije" id="zavrseneRezervacije">Zavrsene<br>
+			</div>
+			
+			<div>
+				<button id="pretrazi">Pretrazi</button>
+			</div>
+		</div>
+	</div>	
+
+          <!-- Bootstrap JS-->
+       
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        
+
+</body>
+
+</html>
