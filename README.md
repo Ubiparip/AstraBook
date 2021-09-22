@@ -1,2 +1,4 @@
 # AstraBook
-Web application for booking apartments, Business-to-Consumer (B2C)
+Web application for booking home, Business-to-Consumer (B2C)
+
+Technologies : JAX-RS,REST,JAVASCRIPT(JQUERY,AJAX),BOOTSTRAP
